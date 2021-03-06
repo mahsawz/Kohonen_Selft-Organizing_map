@@ -8,8 +8,8 @@ Here, I train a Kohonen’s Self-Organizing Feature Map (SOFM) which can map a d
 
 First, I create 1600 colors in RGB space randomly. All Red, Green, and Blue values must be between 0 and 255. Then feed this dataset of 3D data to the network and represent it into a 40x40 map of nodes, which can be shown as a picture with height and width of 40 pixel.
 
-![Image](https://github.com/mahsawz/Kohonen_Selft-Organizing_map/blob/main/input-image.png)
+<img src="https://github.com/mahsawz/Kohonen_Selft-Organizing_map/blob/main/input-image.png" width="200" height="200">
 
 The goal is to take the 3D color vectors and map them onto a 2D surface in such a way that similar colors will end up in the same area of the 2D surface.
 
-![Image](https://github.com/mahsawz/Kohonen_Selft-Organizing_map/blob/main/result-image.png)
+<img src="https://github.com/mahsawz/Kohonen_Selft-Organizing_map/blob/main/result-image.png" width="200" height="200">
